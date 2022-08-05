@@ -28,10 +28,10 @@ class Choices(models.Model):
     # id=models.PrimaryKey(auto_increment=True)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_answer = models.CharField(max_length=20)
-    vote = models.IntegerField(default=0)
+    votes = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.choice_answer
+        return f"{self.question} ---> {self.choice_answer}"
 
 
     # 1)  "Are you happy about Django"        yes/no     3/0
