@@ -1,0 +1,96 @@
+
+POLLS: Get information about things from user
+
+Question
+id/number               Question                                                    Date
+1                       Are you happy about the quality of the training?
+2                       What do you think about "Django middleware"?
+3                       How are you?
+4                       "Are you happy about Django"                                "June 16, 09:50 WAT"
+5                       "Are you ..."                                               "June 17, 10:00 WAT"
+
+Choices
+Question                        Answer_poll
+1(Are you happy)                Yes(3)      No(1)
+2(What do you think ...)        NeverHeardOfIt(90)  IThinkItsCool(3)    DontKnowMuchAboutIt(10)
+
+# for every choice, there must be a question
+# for every question, you do not necessarily need to have a choice
+
+
+
+
+
+STUDENT TASK
+name_of_task        description         date_posted     deadline        mode_of_submission
+add_integers        use variables       June 16         June 17         <click to upload>, url
+                    to add integers
+
+ADMIN TASK
+question_track      student_id      graded      submission_mode     score
+Python/integer      i4gx763         not graded  https://x.ok        0.5/10
+
+
+
+
+
+
+
+
+BLOG
+
+Post
+name                        post_description            content             pub_date
+How to make more money      Get rich in 30 seconds      ... sqrt(x)         June 16
+
+Comment
+comment_message                     Post                    date_comment_was_made
+What are you talking about          How to make ...         June 30
+
+
+
+
+
+
+https://twitter.com
+
+/search?ozark
+
+in views is where the logic happens
+/search?name ------> ViewSearch(name)      search name in urls is linked to viewsearch in views
+In views, there might be a class defined as 
+class ViewSearch:
+    Takes name and searches the database for that name. This is the logic/processing/controller/application
+    return "found", "not found"
+
+
+
+
+
+    SQL
+    SELECT * FROM database;
+    CREATE TABLE table_name(
+        char    first_name;
+        int     age;
+    )
+
+
+    1)  name    id      type=Basic Description
+    2)  name    id      type=Basic Description
+    3)  name    id      type
+
+
+create table new_polls_question(
+    name str;
+    date
+    
+);
+old_table_name = polls_question
+
+create table new_polls_question(
+    name str;
+    date
+    descr
+);
+
+rename table from new_polls_question to the polls_question;
